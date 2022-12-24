@@ -1,0 +1,25 @@
+.gpt3__brand-small {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.gpt3__brand-small div {
+  flex: 1;
+  max-width: 150px;
+  min-width: 30px;
+  margin: 0.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gpt3__brand-small div a img {
+  height: 1.7rem;
+}
+
+.brand__padding {
+  padding: 0.5rem 2rem;
+}
