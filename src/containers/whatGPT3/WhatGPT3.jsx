@@ -8,6 +8,15 @@ import awardIcon from '../../assets/award.png';
 import sportIcon from '../../assets/sports.png';
 import musicIcon from '../../assets/music-instrument.png';
 
+const aboutMeContent = [
+  {
+    'content': 'The first test'
+  },
+  {
+    'content': 'The second test'
+  }
+];
+
 const WhatGPT3 = () => {
   return (
     <div className='gpt3__whatgpt3 section__margin' id="wgpt3">
@@ -25,7 +34,7 @@ const WhatGPT3 = () => {
       </div>
 
       <div className='gpt3__whatgpt3-container'>
-        <Feature title="Academics" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." isIconProvided={true} icon={academicIcon}/>
+        <Feature title="Academics" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." isIconProvided={true} icon={academicIcon} isList={true} listText={aboutMeContent}/>
         <Feature title="Accolades" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" isIconProvided="true" icon={awardIcon}/>
         <Feature title="Sports" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" isIconProvided="true" icon={sportIcon}/>
         <Feature title="Music" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" isIconProvided="true" icon={musicIcon} />

@@ -55,7 +55,8 @@
   display: flex;
 }
 
-.gpt3__features-container__feature-text p {
+.gpt3__features-container__feature-text p,
+.gpt3__features-container__feature-text ul {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 14px;

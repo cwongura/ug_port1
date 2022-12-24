@@ -1,7 +1,7 @@
 import React from 'react';
 import './feature.css';
 
-const Feature = ({ title, text, isIconProvided=false, icon }) => {
+const Feature = ({ title, text, isIconProvided=false, icon, isList=false, listText }) => {
 
   return (
     <div className='gpt3__features-container__feature'>
@@ -19,7 +19,16 @@ const Feature = ({ title, text, isIconProvided=false, icon }) => {
         </div>
       </div>
       <div className='gpt3__features-container__feature-text'>
-        <p>{text}</p>
+        {
+          isList ?
+          (<ul>
+            {listText.map((item, index) => (
+              <li key={index}> {item['content']} </li>
+            ))}
+          </ul>
+          ) :
+          (<p>{text}</p>)
+        }
       </div>
       <div>
       </div>
