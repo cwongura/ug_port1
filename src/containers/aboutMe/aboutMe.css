@@ -1,4 +1,4 @@
-.gpt3__whatgpt3 {
+.ugport__aboutMe {
   display: flex;
   flex-direction: column;
 
@@ -23,11 +23,11 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.gpt3__whatgpt3-feature {
+.ugport__aboutMe-feature {
   display: flex;
 }
 
-.gpt3__whatgpt3-button button {
+.ugport__aboutMe-button button {
   background: var(--gradient-bar);
   border-radius: 20px;
 
@@ -46,16 +46,16 @@
 }
 
 /* Customizing feature component as per needs */
-.gpt3__whatgpt3-feature .gpt3__features-container__feature {
+.ugport__aboutMe-feature .ugport__features-container__feature {
   margin: 0;
 }
 
 /* Customizing feature component as per needs */
-.gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
+.ugport__aboutMe-feature .ugport__features-container_feature-text {
   max-width: 700px;
 }
 
-.gpt3__whatgpt3-heading {
+.ugport__aboutMe-heading {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -64,7 +64,7 @@
   margin: 4rem 0 2rem;
 }
 
-.gpt3__whatgpt3-heading h1 {
+.ugport__aboutMe-heading h1 {
   font-size: 34px;
   line-height: 45px;
   font-weight: 800;
@@ -72,7 +72,7 @@
   max-width: 510px;
 }
 
-.gpt3__whatgpt3-heading p {
+.ugport__aboutMe-heading p {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
@@ -81,7 +81,7 @@
   cursor: pointer;
 }
 
-.gpt3__whatgpt3-container {
+.ugport__aboutMe-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -90,7 +90,7 @@
 }
 
 /* Customizing feature component as per needs */
-.gpt3__whatgpt3-container .gpt3__features-container__feature {
+.ugport__aboutMe-container .ugport__features-container__feature {
   flex: 1;
   margin: 1rem;
   min-width: 210px;
@@ -99,39 +99,39 @@
 }
 
 /* Customizing feature component as per needs */
-.gpt3__whatgpt3-container .gpt3__features-container_feature-text {
+.ugport__aboutMe-container .ugport__features-container_feature-text {
   margin-top: 0.5rem;
 }
 
 @media screen and (max-width: 850px) {
-  .gpt3__whatgpt3-heading {
+  .ugport__aboutMe-heading {
       flex-direction: column;
       align-items: flex-start;
       margin-bottom: 0rem;
   }
 
-  .gpt3__whatgpt3-heading button {
+  .ugport__aboutMe-heading button {
       margin-top: 1rem;
   }
 }
 
 @media screen and (max-width: 650px) {
   /* Customizing feature component as per needs */
-  .gpt3__whatgpt3-feature .gpt3__features-container__feature {
+  .ugport__aboutMe-feature .ugport__features-container__feature {
       flex-direction: column;
   }
 
   /* Customizing feature component as per needs */
-  .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
+  .ugport__aboutMe-feature .ugport__features-container_feature-text {
       margin-top: 0.5rem;
   }
 
-  .gpt3__whatgpt3-heading h1 {
+  .ugport__aboutMe-heading h1 {
       font-size: 28px;
       line-height: 40px;
   }
 
-  .gpt3__whatgpt3-button button {
+  .ugport__aboutMe-button button {
     font-weight: 500;
     font-size: 15px;
     line-height: 25px;
@@ -140,7 +140,7 @@
 
 @media screen and (max-width: 350px) {
   /* Customizing feature component as per needs */
-  .gpt3__whatgpt3-container .gpt3__features-container__feature {
+  .ugport__aboutMe-container .ugport__features-container__feature {
       margin: 1rem 0;
       min-width: 100%;
   }

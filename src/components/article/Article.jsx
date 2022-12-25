@@ -3,12 +3,12 @@ import './article.css';
 
 const Article = ({ imgUrl, date, title, content=[]}, isBig=false) => {
   return (
-    <div className='gpt3__blog-container_article'>
-      <div className={isBig?'gpt3__blog-container_article-bigImage':'gpt3__blog-container_article-image'}>
+    <div className='ugport__blog-container_article'>
+      <div className={isBig?'ugport__blog-container_article-bigImage':'ugport__blog-container_article-image'}>
         <img src={imgUrl} alt='blog' />
       </div>
 
-      <div className='gpt3__blog-container_article-content'>
+      <div className='ugport__blog-container_article-content'>
         <div>
           <p>{date}</p>
           <h3>{title}</h3>

@@ -1,0 +1,48 @@
+.ugport__quote {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+  padding: 2rem;
+  border-radius: 1rem;
+  background: var(--gradient-bar);
+}
+
+.ugport__quote-content p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+
+  color: #0E0E0E;
+}
+
+.ugport__quote-content h3 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: #000000;
+}
+
+@media screen and (max-width: 650px) {
+  .ugport__quote {
+    flex-direction: column;
+    padding: 1.3rem;
+  }
+
+  .ugport__quote-content h3 {
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .ugport__quote-content h3 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}

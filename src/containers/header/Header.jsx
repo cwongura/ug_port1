@@ -6,8 +6,8 @@ import {Brand} from '../../components';
 
 const Header = () => {
   return (
-    <div className='gpt3__header section__padding' id="home">
-      <div className='gpt3__header-content'>
+    <div className='ugport__header section__padding' id="home">
+      <div className='ugport__header-content'>
         <h1 className="gradient__text">
           Hello, I'm Chatarin
         </h1>
@@ -19,12 +19,12 @@ const Header = () => {
           This website was built with <i>React</i>. Visit my <a href="https://github.com/cwongura?tab=repositories" target="_blank"> <u>Github</u> </a> page to see the source code and other projects. Follow my publication on <a href="#"> <u>Medium</u> </a> and my <a href="#"><u>Twitter</u></a>.
         </p>
 
-        {/* <div className='gpt3__header-content__input'>
+        {/* <div className='ugport__header-content__input'>
           <input type='email' placeholder='Your Email Address'></input>
           <button type="button"> Get Started </button>
         </div>
 
-        <div className='gpt3__header-content__people'>
+        <div className='ugport__header-content__people'>
           <img src={people} alt='people'/>
           <p> 1,600 people requested access a visit in last 24 hours </p>
         </div> */}
@@ -32,7 +32,7 @@ const Header = () => {
         <Brand />
       </div>
 
-      <div className='gpt3__header-image'>
+      <div className='ugport__header-image'>
         <img src={profilePicture} alt='Big Profile'/>
       </div>
       

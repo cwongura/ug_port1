@@ -1,8 +1,8 @@
-.gpt3__header {
+.ugport__header {
   display: flex;
 }
 
-.gpt3__header-content {
+.ugport__header-content {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -12,7 +12,7 @@
   margin-right: 5rem;
 }
 
-.gpt3__header-content h1 {
+.ugport__header-content h1 {
   font-family: var(--font-family);
   font-weight: 800;
   font-size: 62px;
@@ -20,7 +20,7 @@
   letter-spacing: -0.04em;
 }
 
-.gpt3__header-content h5 {
+.ugport__header-content h5 {
   font-family: var(--font-family);
   font-weight: 530;
   font-size: 22px;
@@ -31,7 +31,7 @@
   margin-top: 2rem;
 }
 
-.gpt3__header-content p {
+.ugport__header-content p {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 20px;
@@ -43,13 +43,13 @@
   margin-bottom: 1.5rem;
 }
 
-.gpt3__header-content__input {
+.ugport__header-content__input {
   width: 100%;
   margin: 2rem 0 1rem;
   display: flex;
 }
 
-.gpt3__header-content__input input {
+.ugport__header-content__input input {
   flex: 2;
   width: 100%;
   min-height: 55px;
@@ -69,7 +69,7 @@
   color: #3D6184;
 }
 
-.gpt3__header-content__input button {
+.ugport__header-content__input button {
   flex: 0.6;
   width: 100%;
   min-height: 50px;
@@ -89,7 +89,7 @@
   color: #fff;
 }
 
-.gpt3__header-content__people {
+.ugport__header-content__people {
   width: 100%;
   display: flex;
   justify-content: flex-start;
@@ -98,12 +98,12 @@
   margin-top: 2rem;
 }
 
-.gpt3__header-content__people img {
+.ugport__header-content__people img {
   width: 181.79px;
   height: 38px;
 }
 
-.gpt3__header-content__people p {
+.ugport__header-content__people p {
   margin: 0 0 0 1rem;
   text-align: center;
 
@@ -115,7 +115,7 @@
   color: #FFFFFF;
 }
 
-.gpt3__header-image {
+.ugport__header-image {
   flex: 0.8;
   display: flex;
   justify-content: center;
@@ -124,61 +124,61 @@
   align-self: center;
 }
 
-.gpt3__header-image img {
+.ugport__header-image img {
   width: 90%;
   height: 100%;
 }
 
 @media screen and (max-width: 1050px) {
-  .gpt3__header {
+  .ugport__header {
     flex-direction: column;
   }
 
-  .gpt3__header-content {
+  .ugport__header-content {
     margin: 0 0 3rem;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .gpt3__header h1 {
+  .ugport__header h1 {
     font-size: 48px;
     line-height: 60px;
   }
 
-  .gpt3__header p {
+  .ugport__header p {
     font-size: 16px;
     line-height: 24px;
   }
 
-  .gpt3__header-content__people {
+  .ugport__header-content__people {
     flex-direction: column;
   }
 
-  .gpt3__header-content__people p {
+  .ugport__header-content__people p {
     margin: 0;
     font-size: 10px;
   }
 
-  .gpt3__header-content__input input,
-  .gpt3__header-content__input button {
+  .ugport__header-content__input input,
+  .ugport__header-content__input button {
     font-size: 16px;
     line-height: 24px;
   }
 }
 
 @media screen and (max-width: 490px) {
-  .gpt3__header h1 {
+  .ugport__header h1 {
     font-size: 36px;
     line-height: 48px;
   }
 
-  .gpt3__header p {
+  .ugport__header p {
     font-size: 14px;
     line-height: 24px;
   }
 
-  .gpt3__header-content__input input,
-  .gpt3__header-content__input button {
+  .ugport__header-content__input input,
+  .ugport__header-content__input button {
     font-size: 12px;
     line-height: 16px;
   }

@@ -1,4 +1,4 @@
-.gpt3__navbar {
+.ugport__navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -6,36 +6,35 @@
   padding: 2rem 6rem;
 }
 
-.gpt3__navbar-links {
+.ugport__navbar-links {
   flex: 1;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.gpt3__navbar-links_logo {
+.ugport__navbar-links_logo {
   margin-right: 2rem;
 }
 
-.gpt3__navbar-links_logo img {
-  width: 100%;
+.ugport__navbar-links_logo img {
   height: 16.02px;
 }
 
-.gpt3__navbar-links_container {
+.ugport__navbar-links_container {
   display: flex;
   flex-direction: row;
 }
 
-.gpt3__navbar-sign {
+.ugport__navbar-sign {
   display: flex;
   justify-content: flex;
   align-items: center;
 }
 
-.gpt3__navbar-links_container p,
-.gpt3__navbar-sign p,
-.gpt3__navbar-menu_container p {
+.ugport__navbar-links_container p,
+.ugport__navbar-sign p,
+.ugport__navbar-menu_container p {
   color: #fff;
   font-family: var(--font-family);
   font-weight: 500;
@@ -47,8 +46,8 @@
   cursor: pointer;
 }
 
-.gpt3__navbar-sign button,
-.gpt3__navbar-menu_container button {
+.ugport__navbar-sign button,
+.ugport__navbar-menu_container button {
   padding: 1rem 2rem;
 
   background: #FF4820;
@@ -65,18 +64,18 @@
   cursor: pointer;
 }
 
-.gpt3__navbar-menu {
+.ugport__navbar-menu {
   margin-left: 1rem;
 
   display: none;
   position: relative;
 }
 
-.gpt3__navbar-menu svg {
+.ugport__navbar-menu svg {
   cursor: pointer;
 }
 
-.gpt3__navbar-menu_container {
+.ugport__navbar-menu_container {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -95,49 +94,49 @@
   box-shadow: 0 0 5 rgba(0,0,0,0.2);
 }
 
-.gpt3__navbar-menu_container p {
+.ugport__navbar-menu_container p {
   margin: 1rem 0;
 }
 
-.gpt3__navbar-menu_container-links-sign {
+.ugport__navbar-menu_container-links-sign {
   display: none;
 }
 
 @media screen and (max-width: 1065px) {
-  .gpt3__navbar-links_container {
+  .ugport__navbar-links_container {
     display: none;
   }
 
-  .gpt3__navbar-menu {
+  .ugport__navbar-menu {
     display: flex;
   }
 }
 
 @media screen and (max-width: 700px) {
-  .gpt3__navbar{
+  .ugport__navbar{
     padding: 2rem 4rem;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .gpt3__navbar{
+  .ugport__navbar{
     padding: 2rem;
   }
 
-  .gpt3__navbar-sign {
+  .ugport__navbar-sign {
     display: none;
   }
 
-  .gpt3__navbar-menu_container {
+  .ugport__navbar-menu_container {
     top: 20px
   }
 
-  .gpt3__navbar-menu_container-links-sign {
+  .ugport__navbar-menu_container-links-sign {
     display: block;
     justify-content: flex-end;
   }
 
-  .gpt3__navbar-menu_container-links-sign div {
+  .ugport__navbar-menu_container-links-sign div {
     margin: 0.2rem;
     padding-right: 0;
   }

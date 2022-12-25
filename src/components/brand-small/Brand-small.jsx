@@ -4,7 +4,7 @@ import { github_small, medium_small, twitter_small } from './imports'
 
 const BrandSmall = () => {
   return (
-    <div className='gpt3__brand-small brand_padding'>
+    <div className='ugport__brand-small brand_padding'>
       <div>
         <a href="#Github"><img src={github_small} alt='GitHub' /></a>
       </div>

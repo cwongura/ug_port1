@@ -1,15 +1,15 @@
 import React from 'react';
-import './possibility.css';
-import possibilityImage from '../../assets/possibility.png'
+import './showCase1.css';
+import showCase1Image from '../../assets/possibility.png'
 
-const Possibility = () => {
+const ShowCase1 = () => {
   return (
-    <div className='gpt3__possibility section__padding' id="possibility">
-      <div className='gpt3__possibility-image'>
-        <img src={possibilityImage} alt="possibilityImage" />
+    <div className='ugport__showCase1 section__padding' id="showCase1">
+      <div className='ugport__showCase1-image'>
+        <img src={showCase1Image} alt="Robo-AO research summary" />
       </div>
       
-      <div className='gpt3__possibility-content'>
+      <div className='ugport__showCase1-content'>
         <h4>My research fellowship with Robo-AO</h4>
         <h1 className='gradient__text'>Correcting atmosphere for a perfect image</h1>
         <p> Adaptive optics systems are used to compensate for the distortions caused by Earth's atmosphere, which can blur and distort images of celestial objects. By using lasers to measure and correct for these distortions in real-time, adaptive optics systems can produce high-resolution images of celestial objects that are much sharper than those obtained using traditional telescopes. </p>
@@ -22,4 +22,4 @@ const Possibility = () => {
   )
 }
 
-export default Possibility
+export default ShowCase1

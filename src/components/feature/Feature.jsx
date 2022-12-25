@@ -4,13 +4,13 @@ import './feature.css';
 const Feature = ({ title, text, isIconProvided=false, icon, isList=false, listText }) => {
 
   return (
-    <div className='gpt3__features-container__feature'>
-      <div className='gpt3__features-container__feature-header'>
-        <div className='gpt3__features-container__feature-title'>
+    <div className='ugport__features-container__feature'>
+      <div className='ugport__features-container__feature-header'>
+        <div className='ugport__features-container__feature-title'>
           <div />
           <h1>{title}</h1>
         </div>
-        <div className='gpt3__features-container__feature-icon'>
+        <div className='ugport__features-container__feature-icon'>
           {
           isIconProvided ?
           (<img src={icon}/>) :
@@ -18,7 +18,7 @@ const Feature = ({ title, text, isIconProvided=false, icon, isList=false, listTe
           }
         </div>
       </div>
-      <div className='gpt3__features-container__feature-text'>
+      <div className='ugport__features-container__feature-text'>
         {
           isList ?
           (<ul>

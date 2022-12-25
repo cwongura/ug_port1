@@ -42,19 +42,19 @@ const blog5Content = [
 
 const Blog = () => {
   return (
-    <div className='gpt3__blog section__padding' id="blog">
-      <div className='gpt3__blog-heading'>
+    <div className='ugport__blog section__padding' id="blog">
+      <div className='ugport__blog-heading'>
         <h1 className='gradient__text'> My proudest achievements</h1>
       </div>
 
-      <div className='gpt3__blog-container'>
-        <div className='gpt3__blog-container_groupA'>
+      <div className='ugport__blog-container'>
+        <div className='ugport__blog-container_groupA'>
           <Article imgUrl={blog01} date="Summer 2013" 
             title="Develop new calibration method due to non-common path abberations in Robo-AO instrument" 
             isBig={true} content={blog1Content}/>
         </div>
 
-        <div className='gpt3__blog-container_groupB'>
+        <div className='ugport__blog-container_groupB'>
           <Article imgUrl={blog02} date="Summer 2021 - Now" 
             title="Develop and deploy trading bots with hyperoptimized parameters" 
             content={blog2Content}/>

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Feature } from '../../components';
-import './features.css';
+import './smallSkills.css';
 
-const featuresData = [
+const smallSkillsData = [
   {
     title: 'Coursera certificates',
     text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
@@ -61,16 +61,16 @@ const featuresData = [
   }
 ]
 
-const Features = () => {
+const SmallSkills = () => {
   return (
-    <div className='gpt3__features section__padding' id="features">
-      <div className='gpt3__features-headings'>
+    <div className='ugport__smallSkills section__padding' id="smallSkills">
+      <div className='ugport__smallSkills-headings'>
         <h1 className='gradient__text'>Here are some trivial achievements and skills. The admission officers probably won't read them.</h1>
         <p>Secondary title</p>
       </div>
 
-      <div className='gpt3__features-container'>
-        {featuresData.map((item, index) => (
+      <div className='ugport__smallSkills-container'>
+        {smallSkillsData.map((item, index) => (
         <Feature title={item['title']} text={item['text']} key={item['title']+index} 
           isList={item['isList']} listText={item['listContent']}/>
         ))}
@@ -79,4 +79,4 @@ const Features = () => {
   )
 }
 
-export default Features
+export default SmallSkills

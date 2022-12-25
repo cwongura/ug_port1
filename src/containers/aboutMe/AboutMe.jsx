@@ -1,6 +1,6 @@
 import React from 'react';
 import { Feature } from '../../components';
-import './whatGPT3.css';
+import './aboutMe.css';
 
 // importing the icon used
 import academicIcon from '../../assets/diploma.png';
@@ -56,23 +56,23 @@ const musicContent = [
   }
 ]
 
-const WhatGPT3 = () => {
+const AboutMe = () => {
   return (
-    <div className='gpt3__whatgpt3 section__margin' id="wgpt3">
-      <div className='gpt3__whatgpt3-features'>
+    <div className='ugport__aboutMe section__margin' id="aboutMe">
+      <div className='ugport__aboutMe-features'>
         <Feature title="About Me" text="I'm excited to take my passion for engineering to the next level by pursuing a degree in the field. I'm confident that my strong foundation in math and science, combined with my drive and determination, will make me a valuable asset to any engineering program." />
       </div>
 
-      <div className='gpt3__whatgpt3-heading'>
+      <div className='ugport__aboutMe-heading'>
         <h1 className='gradient__text'>
           Snippets of my achievements, activities, and skill sets
         </h1>
-        <div className='gpt3__whatgpt3-button'>
+        <div className='ugport__aboutMe-button'>
           <a href="#blog"><button type="button"> Download full resume </button></a>
         </div>
       </div>
 
-      <div className='gpt3__whatgpt3-container'>
+      <div className='ugport__aboutMe-container'>
         <Feature title="Accolades" 
           text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." 
           isIconProvided={true} icon={academicIcon} 
@@ -97,4 +97,4 @@ const WhatGPT3 = () => {
   )
 }
 
-export default WhatGPT3
+export default AboutMe

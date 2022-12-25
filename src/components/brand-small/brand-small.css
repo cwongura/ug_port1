@@ -1,11 +1,11 @@
-.gpt3__brand-small {
+.ugport__brand-small {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-.gpt3__brand-small div {
+.ugport__brand-small div {
   flex: 1;
   max-width: 150px;
   min-width: 30px;
@@ -16,7 +16,7 @@
   align-items: center;
 }
 
-.gpt3__brand-small div a img {
+.ugport__brand-small div a img {
   height: 1.7rem;
 }
 
