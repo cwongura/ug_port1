@@ -65,7 +65,11 @@
 
 @media screen and (max-width: 550px) {
   .gpt3__blog-heading h1 {
-    font-size: 34px;
-    line-height: 42px;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .gpt3__blog-heading {
+    margin-bottom: 1rem;
   }
 }

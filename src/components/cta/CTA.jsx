@@ -5,13 +5,13 @@ const CTA = () => {
   return (
     <div className='gpt3__cta section__margin'>
       <div className='gpt3__cta-content'>
-        <p>Request Early Access to Get Started</p>
-        <h3>Register today & start exploring the endless possiblities.</h3>
+        <p> -- <i>Nicholas St. John Green</i></p>
+        <h3>The engineer is a creator of machines, but he is also a master of efficiency.</h3>
       </div>
 
-      <div className='gpt3__cta-button'>
+      {/* <div className='gpt3__cta-button'>
         <button type="button"> Get Started </button>
-      </div>
+      </div> */}
     </div>
   )
 }

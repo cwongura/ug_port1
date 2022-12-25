@@ -1,10 +1,10 @@
 import React from 'react';
 import './article.css';
 
-const Article = ({ imgUrl, date, title, content="Just a testing text" }) => {
+const Article = ({ imgUrl, date, title, content=[]}, isBig=false) => {
   return (
     <div className='gpt3__blog-container_article'>
-      <div className='gpt3__blog-container_article-image'>
+      <div className={isBig?'gpt3__blog-container_article-bigImage':'gpt3__blog-container_article-image'}>
         <img src={imgUrl} alt='blog' />
       </div>
 
@@ -12,7 +12,11 @@ const Article = ({ imgUrl, date, title, content="Just a testing text" }) => {
         <div>
           <p>{date}</p>
           <h3>{title}</h3>
-          <h5>{content}</h5>
+          {
+            content.map((item, index) => (
+              <h5 key={index+'blog'}>{item['content']}</h5>
+            ))
+          }
         </div>
 
         <p> Read Full Article </p>

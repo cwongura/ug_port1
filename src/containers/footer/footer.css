@@ -71,8 +71,8 @@
 }
 
 .gpt3__footer-links_logo img {
-  width: 118px;
-  height: 30px;
+  max-width: 150px;
+  object-fit: cover;
   margin-bottom: 1rem;
 }
 

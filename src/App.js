@@ -14,9 +14,9 @@ const App = () => {
       </div>
       <WhatGPT3 />
       <Blog />
+      <CTA />
       <Features />
       <Possibility />
-      <CTA />
       <Footer />
     </div>
   )

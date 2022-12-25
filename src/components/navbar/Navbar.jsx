@@ -9,9 +9,9 @@ const Menu = () => (
   <>
   <p><a href="#home">Home</a></p>
   <p><a href="#wgpt3">About me</a></p>
-  <p><a href="#blog">Activities</a></p>
-  <p><a href="#possibility">Activities</a></p>
-  <p><a href="#features">Achievements</a></p>
+  <p><a href="#blog">Achievements</a></p>
+  <p><a href="#features">Skills</a></p>
+  <p><a href="#possibility">Robo-AO</a></p>
   </>
 )
 
