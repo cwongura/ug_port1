@@ -13,8 +13,8 @@ const Feature = ({ title, text, isIconProvided=false, icon, isList=false, listTe
         <div className='ugport__features-container__feature-icon'>
           {
           isIconProvided ?
-          (<img src={icon}/>) :
-          (<div></div>)
+          (<img src={icon} alt={"icon for"+title}/>) :
+          ("")
           }
         </div>
       </div>

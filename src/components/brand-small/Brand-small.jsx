@@ -1,18 +1,19 @@
 import React from 'react';
 import './brand-small.css';
 import { github_small, medium_small, twitter_small } from './imports'
+import { githubURL, mediumURL, twitterURL } from '../../all-url';
 
 const BrandSmall = () => {
   return (
     <div className='ugport__brand-small brand_padding'>
       <div>
-        <a href="#Github"><img src={github_small} alt='GitHub' /></a>
+        <a href={githubURL} target="_blank" rel="noreferrer"><img src={github_small} alt='GitHub_small_logo' /></a>
       </div>
       <div>
-        <a href="#Medium"><img src={medium_small} alt='Medium' /></a>
+        <a href={mediumURL} target="_blank" rel="noreferrer"><img src={medium_small} alt='Medium_small_logo' /></a>
       </div>
       <div><a
-        a href="#Twitter"><img src={twitter_small} alt='Twitter' /></a>
+        a href={twitterURL} target="_blank" rel="noreferrer"><img src={twitter_small} alt='Twitter_small_logo' /></a>
       </div>
     </div>
   )
