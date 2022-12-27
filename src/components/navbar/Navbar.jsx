@@ -29,14 +29,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* <div className='ugport__navbar-sign'>
-        <p> Sign in </p>
-        <button type="button"> Sign up </button>
-      </div> */}
-
-      {/* <div>
-        <h1> Testing </h1>
-      </div> */}
       <div className='ugport__navbar-sign'>
         <BrandSmall />
       </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './brand-small.css';
-import { github_small, medium_small, twitter_small } from './imports'
-import { githubURL, mediumURL, twitterURL } from '../../all-url';
+import { github_small, medium_small, twitter_small, linkedin_small } from './imports'
+import { githubURL, mediumURL, twitterURL, linkedInURL } from '../../all-url';
 
 const BrandSmall = () => {
   return (
@@ -12,8 +12,11 @@ const BrandSmall = () => {
       <div>
         <a href={mediumURL} target="_blank" rel="noreferrer"><img src={medium_small} alt='Medium_small_logo' /></a>
       </div>
-      <div><a
-        a href={twitterURL} target="_blank" rel="noreferrer"><img src={twitter_small} alt='Twitter_small_logo' /></a>
+      <div>
+        <a href={twitterURL} target="_blank" rel="noreferrer"><img src={twitter_small} alt='Twitter_small_logo' /></a>
+      </div>
+      <div>
+        <a href={linkedInURL} target="_blank" rel="noreferrer"><img src={linkedin_small} alt='LinkedIn_small_logo' /></a>
       </div>
     </div>
   )
