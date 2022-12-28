@@ -29,6 +29,15 @@
   color: #000000;
 }
 
+.ugport__quote-icon {
+  margin-left: 1rem;
+}
+
+.ugport__quote-icon img {
+  height: 4rem;
+  object-fit: cover;
+}
+
 @media screen and (max-width: 650px) {
   .ugport__quote {
     flex-direction: column;
@@ -37,6 +46,15 @@
 
   .ugport__quote-content h3 {
     line-height: 30px;
+  }
+
+  .ugport__quote-icon {
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+
+  .ugport__quote-icon img {
+    height: 3rem;
   }
 }
 

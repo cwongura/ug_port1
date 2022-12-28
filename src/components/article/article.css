@@ -9,8 +9,8 @@
 
 .ugport__blog-container_article-image {
   width: 100%;
-  height: 100%;
-  max-height: 300px;
+
+  max-height: 180px;
   background: var(--color-footer);
 
 }
@@ -25,9 +25,8 @@
 
 .ugport__blog-container_article-image img {
   width: 100%;
-  height: 100%;
 
-  max-height: 150px;
+  max-height: 180px;
   object-fit: cover;
 }
 
@@ -74,11 +73,36 @@
   margin-bottom: 1rem;
 }
 
-.ugport__blog-container_article-content p:last-child {
+.ugport__blog-container_footer-tags {
+  display: flex;
+  align-items: center;
+}
+
+.ugport__blog-container_footer-tags button {
+  background-color: var(--color-text);
+  padding: 0 0.6rem;
+  margin-left: 0.4rem;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: black;
+
+  border-radius: 30px;
+  border-color: white;
+  border-style: solid;
+  border-width: 0.5px;
+
+  height: 1.5rem;
+}
+
+.ugport__blog-container_footer p:last-child {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 700;
-  font-size: 11.649px;
+  font-size: 15px;
   line-height: 35px;
 
   color: #FFFFFF;

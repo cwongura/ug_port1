@@ -43,18 +43,19 @@
 }
 
 @media screen and (max-width: 990px) {
-  .ugport__features {
+  .ugport__smallSkills {
     flex-direction: column;
   }
 
-  .ugport__features-heading {
+  .ugport__smallSkills-heading {
     margin: 0 0 2rem 0;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .ugport__features-heading h1 {
+  .ugport__smallSkills-heading h1 {
     font-size: 28px;
     line-height: 38px;
   }
+
 }

@@ -65,8 +65,8 @@ const SmallSkills = () => {
   return (
     <div className='ugport__smallSkills section__padding' id="smallSkills">
       <div className='ugport__smallSkills-headings'>
-        <h1 className='gradient__text'>Here are some trivial achievements and skills. The admission officers probably won't read them.</h1>
-        <p>Secondary title</p>
+        <h1 className='gradient__text'>Supplementary Skills, Experience, and Qualifications</h1>
+        <p>"Small things, done with great love, can change the world." - Mother Teresa</p>
       </div>
 
       <div className='ugport__smallSkills-container'>

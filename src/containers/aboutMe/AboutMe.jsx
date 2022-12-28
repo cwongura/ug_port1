@@ -8,6 +8,8 @@ import awardIcon from '../../assets/award.png';
 import sportIcon from '../../assets/sports.png';
 import musicIcon from '../../assets/music-instrument.png';
 
+import resumeFile from '../../assets/physics_Data_booklet.pdf';
+
 const academicsContent = [
   {
     'content': "World's highest score in IGCSE Mathematics, Computer science, and Physics (Grade 10)"
@@ -68,7 +70,7 @@ const AboutMe = () => {
           Snippets of my achievements, activities, and skill sets
         </h1>
         <div className='ugport__aboutMe-button'>
-          <a href="#blog"><button type="button"> Download full resume </button></a>
+          <a href={resumeFile} download="Chatarin Portfolio"><button type="button"> Download full resume </button></a>
         </div>
       </div>
 
