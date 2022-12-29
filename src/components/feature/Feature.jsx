@@ -10,14 +10,14 @@ const Feature = ({ title, text, isIconProvided=false, icon, isList=false, listTe
           <div />
           <h1>{title}</h1>
         </div>
-        <div className='ugport__features-container__feature-icon'>
-          {
-          isIconProvided ?
-          (<img src={icon} alt={"icon for"+title}/>) :
-          ("")
-          }
-        </div>
+
+        {isIconProvided && (
+          <div className='ugport__features-container__feature-icon'>
+            <img src={icon} alt={"icon for "+title}/>
+          </div>
+        )}
       </div>
+
       <div className='ugport__features-container__feature-text'>
         {
           isList ?
@@ -29,8 +29,6 @@ const Feature = ({ title, text, isIconProvided=false, icon, isList=false, listTe
           ) :
           (<p>{text}</p>)
         }
-      </div>
-      <div>
       </div>
     </div>
   )

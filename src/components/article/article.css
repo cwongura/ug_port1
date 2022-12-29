@@ -39,7 +39,8 @@
   padding: 1rem 1.5rem;
 }
 
-.ugport__blog-container_article-content p {
+.ugport__blog-container_article-header p,
+.ugport__blog-container_footer-tags p {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 700;
@@ -49,7 +50,7 @@
   color: #FFFFFF;
 }
 
-.ugport__blog-container_article-content h3 {
+.ugport__blog-container_article-header h3 {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 800;
@@ -62,7 +63,7 @@
   cursor: pointer;
 }
 
-.ugport__blog-container_article-content h5 {
+.ugport__blog-container_article-header h5 {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
@@ -110,7 +111,7 @@
 }
 
 @media screen and (max-width: 550px) {
-  .ugport__blog-container_article-content h3 {
+  .ugport__blog-container_article-header h3 {
     font-size: 18px;
     line-height: 25px;
   }

@@ -1,17 +1,17 @@
 import React from 'react';
 import './article.css';
 
-const Article = ({ imgUrl, date, title, content=[{}], 
+const Article = ({ imgURL, date, title, content=[{}], 
                 isBig=false, isTag=false, tagsContent=[],
                 isLink=false, linkURL}) => {
   return (
     <div className='ugport__blog-container_article'>
       <div className={isBig?'ugport__blog-container_article-bigImage':'ugport__blog-container_article-image'}>
-        <img src={imgUrl} alt='blog' />
+        <img src={imgURL} alt='blog' />
       </div>
 
       <div className='ugport__blog-container_article-content'>
-        <div>
+        <div className='ugport__blog-container_article-header'>
           <p>{date}</p>
           <h3>{title}</h3>
           {

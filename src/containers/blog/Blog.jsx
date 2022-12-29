@@ -40,7 +40,7 @@ const blog4Content = {
   'title': "Develop & maintain website for EatUp family restaurant",
   'content': ["Throughout the process, I gained valuable experience in web design and project management, as well as an understanding of the needs and preferences of the restaurant's customers. I was proud to see the website go live, and received positive feedback from both the restaurant and its customers."],
   'isTag': true,
-  'tagsContent': ['ReactJS', 'Redux', 'Community services']
+  'tagsContent': ['ReactJS', 'Redux', 'Services']
 }
 
 
@@ -62,7 +62,7 @@ const Blog = () => {
 
       <div className='ugport__blog-container'>
         <div className='ugport__blog-container_groupA'>
-          <Article imgUrl={blog01} date={blog1Content.date} 
+          <Article imgURL={blog01} date={blog1Content.date} 
             title={blog1Content.title} isBig={true} 
             content={blog1Content.content}
             isTag={blog1Content.isTag} 
@@ -72,13 +72,13 @@ const Blog = () => {
         </div>
 
         <div className='ugport__blog-container_groupB'>
-          <Article imgUrl={blog02} date={blog2Content.date} 
+          <Article imgURL={blog02} date={blog2Content.date} 
             title={blog2Content.title} isBig={false}
             content={blog2Content.content}
             isTag={blog2Content.isTag}
             tagsContent={blog2Content.tagsContent} />
 
-          <Article imgUrl={blog03} date={blog3Content.date} 
+          <Article imgURL={blog03} date={blog3Content.date} 
             title={blog3Content.title} isBig={false}
             content={blog3Content.content}
             isTag={blog3Content.isTag}
@@ -86,13 +86,13 @@ const Blog = () => {
             isLink={blog3Content.isLink}
             linkURL={blog3Content.linkURL} />
 
-          <Article imgUrl={blog04} date={blog4Content.date} 
+          <Article imgURL={blog04} date={blog4Content.date} 
             title={blog4Content.title} isBig={false}
             content={blog4Content.content}
             isTag={blog4Content.isTag}
             tagsContent={blog4Content.tagsContent} />
 
-          <Article imgUrl={blog05} date={blog5Content.date}
+          <Article imgURL={blog05} date={blog5Content.date}
             title={blog5Content.title} isBig={false}
             content={blog5Content.content}
             isTag={blog5Content.isTag}
