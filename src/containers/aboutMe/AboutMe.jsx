@@ -8,7 +8,7 @@ import awardIcon from '../../assets/award.png';
 import sportIcon from '../../assets/sports.png';
 import musicIcon from '../../assets/music-instrument.png';
 
-import resumeFile from '../../assets/physics_Data_booklet.pdf';
+import resumeFile from '../../assets/UpGrade_Mock_CV.pdf';
 
 const academicsContent = [
   {

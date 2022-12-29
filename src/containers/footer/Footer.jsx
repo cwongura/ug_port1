@@ -1,7 +1,7 @@
 import React from 'react';
 import './footer.css';
 
-import resumeFile from '../../assets/physics_Data_booklet.pdf';
+import resumeFile from '../../assets/UpGrade_Mock_CV.pdf';
 
 const Footer = () => {
   return (
